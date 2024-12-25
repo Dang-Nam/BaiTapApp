@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center">
+
+
+    <WebView
+        android:id="@+id/webview1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginBottom="20dp" />
+
+
+    <EditText
+        android:id="@+id/sizeCanh"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nhập chiều dài cạnh"
+        android:inputType="number"
+        android:minHeight="48dp"
+        android:padding="10dp"
+        android:textSize="18sp" />
+
+
+    <Button
+        android:id="@+id/ButtonTinh"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tính Chu Vi"
+        android:textSize="18sp"
+        android:layout_marginTop="16dp"
+        android:layout_gravity="center" />
+
+
+    <TextView
+        android:id="@+id/TextKq"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kết quả ở đây nè bạn gì ơi"
+        android:textSize="20sp"
+        android:textColor="#FF0000"
+        android:textAlignment="center"
+        android:layout_marginTop="20dp" />
+
+</LinearLayout>

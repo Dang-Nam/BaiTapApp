@@ -1,0 +1,118 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+/*tiêu đề */
+h1, h2, h3 {
+    color: #333;
+    font-size: 24px;
+    margin-top: 20px;
+}
+
+/* Thông tin */
+#personal-info {
+    margin-top: 20px;
+}
+
+#personal-info img {
+    border-radius: 50%;
+    border: 5px solid #ddd;
+    width: 150px;
+    height: 150px;
+    margin-bottom: 15px;
+}
+
+/*bài toán chu vi */
+form {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-top: 30px;
+    display: inline-block;
+    max-width: 400px;
+    width: 100%;
+}
+
+form label {
+    font-size: 18px;
+    margin-bottom: 10px;
+    display: block;
+    color: #555;
+}
+
+form input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid #ddd;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+
+form button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    font-size: 18px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #45a049;
+}
+
+/* Kết quả tính */
+#result {
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #FF5733;
+}
+
+/* Phần media (MP3 và MP4) */
+audio, video {
+    margin-top: 30px;
+    border-radius: 8px;
+}
+
+audio {
+    width: 90%;
+    max-width: 500px;
+}
+
+video {
+    width: 90%;
+    max-width: 500px;
+    margin-top: 20px;
+}
+
+h2, h3 {
+    font-size: 20px;
+    color: #333;
+    margin-top: 10px;
+}
+
+/* thông báo lỗi hoặc kết quả */
+#result {
+    color: #FF0000;
+    font-size: 22px;
+    margin-top: 10px;
+}
+
+section {
+    margin-bottom: 30px;
+}
+
+footer {
+    margin-top: 40px;
+    font-size: 14px;
+    color: #888;
+}
